@@ -1,0 +1,44 @@
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header, p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+div#correta{
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.5em;
+    color: green;
+}
+
+div#errada{
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.5em;
+    color: red;
+}
+
+footer{
+    text-align: center;
+    margin-top: 200px;
+    font-style: oblique;
+}
