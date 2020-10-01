@@ -1,24 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--
+    HEAD
+    o head serve como um container para as meta tags e o estilo que obrigatoriamente
+    devem estar aqui
+    -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- 
+        BODY
+        é o cantainer que é considerado corpo do HTML e esta dividido em tres sessões
+        HEADER, SECTION e FOOTER
+     -->
     <header>
+         <!-- 
+            HEADER
+            é a sessão onde incluimos o titulo e uma apresentação para o usuario e 
+            identificamos o seu nome pelo id "apresentação" que está sendo tratado
+            no javascript
+         -->
         <h1>Vestibular</h1>
         <p id="apresentacao"> </p>
     </header>
     <section>
+         <!-- 
+            SECTION
+            esta é a sessão onde será apresentado as respostas corretas e erradas
+         -->
         <div id="correta">
+             <!-- 
+                ID CORRETA
+                este nó esta sendo tratado no javascript para retornar as respostas corretas
+             -->
              <h1><strong>CORRETA</strong></h1>
             <div id="correta_resp1"></div>
             <div id="correta_resp2"></div>
             <div id="correta_resp3"></div>
         </div>
         <div id="errada">
+             <!-- 
+                ID ERRADA
+                este nó esta sendo tratado no javascript para retornar as respostas erradas
+             -->
             <h1><strong>ERRADA</strong></h1>
             <div id="errada_resp1"></div>
             <div id="errada_resp2"></div>
@@ -28,9 +56,21 @@
         
     </section>
     <footer>
+         <!-- 
+            FOOTER
+            esta sessão é o rodapé do site e nela uma nota de rodapé
+         -->
+   
         <hr>
         Feito com muito carinho por <strong>Stefany Martins</strong> e <strong>Wiamara Weber</strong>
     </footer>
+    
+     <!-- 
+        ARQUIVO DE JAVASCRIPT
+        colocamos o arquivo de javascript no rodapé para que o carregamento do site seja mais rapido
+        e manter a organização do código
+        o arquivo javascript é responsavel por fazer a validação de todas as respostas para o usuario.
+     -->
     
     <script type="text/javascript" src="main.js"></script>
 </body>
